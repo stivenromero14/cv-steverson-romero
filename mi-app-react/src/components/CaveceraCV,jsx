@@ -8,4 +8,4 @@ export default function CabeceraCV() {
       <h3>ciudad: Medellin-Antioquia</h3>
     </header>
   );
-}
+  }
