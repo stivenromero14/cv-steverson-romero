@@ -1,4 +1,4 @@
-export default function CabeceraCV() {
+  export default function CabeceraCV(){
   return (
     <header>
       <h1>Steversson Romero Moreno</h1>
