@@ -8,14 +8,18 @@ const formacion = [
   { institucion: "Google Activate", curso: "Curso de Desarrollo Web", año: 2021 }
 ];
 
-export default function Educacion() {
+export default function Educacion({ estudios }) {
+  const educacion = [
+    { id: 1, titulo: "Ingeniería en Sistemas", universidad: "Universidad Nacional", periodo: "2020-2024" }
+  ];
+
   return (
     <section>
-      <h2>Educación</h2>
+      <h3>Educación</h3>
       <ul>
-        {formacion.map((edu, i) => (
-          <li key={i}>
-            <strong>{edu.curso}</strong> - {edu.institucion} ({edu.año})
+        {educacion.map((edu) => (
+          <li key={edu.id}>
+            <strong>{edu.titulo}</strong> - {edu.universidad} ({edu.periodo})
           </li>
         ))}
       </ul>
