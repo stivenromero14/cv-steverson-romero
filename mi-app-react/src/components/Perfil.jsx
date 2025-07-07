@@ -1,18 +1,22 @@
-export default function Perfil() {
+export default function Perfil({texto}) {
   return (
     <section>
-      <h3>Perfil personal</h3>
+      <h2>Perfil Profesional</h2>
       <p>
-       soy un estudiante en desarrollo front-end en proseso de formacion
-       motivado por el aprendisaje de programacon creacion de APIs y me motiva el estduio y el trabaho para despues encontar soluciones a los problemas a futuro con mis conocimientos
+        Soy un desarrollador Front-End en proceso de formación,
+         motivado por la creación de aplicaciones web interactivas y adaptables a distintos dispositivos. 
+         Me entusiasma aprender de forma continua y trabajar en equipo para encontrar soluciones a desafíos tanto técnicos como creativos.
       </p>
-      <h3>habilidades destacadas</h3>
+      <h3>Habilidades Destacadas:</h3>
       <ul>
-        <li>HTML,JavaScript,CSS</li>
-        <li>comunicacion Asertiva</li>
-        <li>Trabajo en Grupo</li>
-
+        <li>HTML, CSS, JavaScript</li>
+        <li>React.js y Vite</li>
+        <li>Trabajo en equipo</li>
+        <li>Comunicación efectiva</li>
+        <li>Aprendizaje autónomo</li>
       </ul>
     </section>
   );
-}
+};
+
+
