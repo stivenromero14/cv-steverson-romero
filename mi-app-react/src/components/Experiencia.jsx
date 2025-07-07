@@ -62,14 +62,14 @@ const Experiencia = () => {
       id: 9,
       cargo: "Proyecto CRM Empresarial",
       empresa: "Freelance",
-      año: "2021",
+      año: "2024",
       descripcion: "Sistema de gestión de relaciones con clientes, automatización de procesos de venta y dashboard de métricas."
     },
     {
       id: 10,
       cargo: "Proyecto Blog Corporativo",
       empresa: "Freelance",
-      año: "2020",
+      año: "2023",
       descripcion: "Desarrollo de blog corporativo con CMS personalizado, SEO optimizado y sistema de comentarios moderados."
     }
   ];
